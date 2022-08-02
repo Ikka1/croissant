@@ -1,0 +1,60 @@
+:root {
+  --uniform-margin: 20 0;
+  --uniform-text-align: center;
+  --heading-font-size: 48px;
+  --gradient: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+body {
+  text-align: var(--uniform-text-align);
+  font-family: sans-serif;
+  padding: 0 20px;
+  background: var(--gradient);
+  background-attachment: fixed; /*edit*/
+}
+
+h1 {
+  margin: var(--uniform-margin);
+  font-size: 34px;
+}
+h2 {
+  font-size: var(--heading-font-size);
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 30px;
+}
+.link-box {
+  display: flex;
+  justify-content: center;
+}
+.link-box div {
+  color: black;
+  border: 1px solid peru;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px 20px;
+  background-color: #ffd9c0;
+}
+
+.link-box :hover {
+  background-color: black;
+  color: white;
+}
+.link-box :visited {
+  color: green;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+}
+.paragraph div {
+  color: black;
+  border: 1px solid peru;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px 20px;
+  background-color: #ffd9c0;
+  text-align: left;
+}
