@@ -58,3 +58,11 @@ h3 {
   background-color: #ffd9c0;
   text-align: left;
 }
+.photo-reference {
+  font-size: 12px;
+}
+.open-source {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
